@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de Login</title>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça Login<br>E venha viajar pelo universo!</h1>
+            <img class="left-login-image" src="cat-astronaut-animate.svg" alt="Astronauta">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>  
+                <span id="error">Cats, os campos estão vazios!</span>
+                <span id="autenticado">Cats, estamos escolhendo seu planeta detino!</span>
+                <span id="error_senha">Cats, verifique sua senha!</span>
+                <span id="error_email">Cats, verifique seu E-mail!</span>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input id="usuario" type="text"  placeholder="Usuário" >
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input  id="password" type="password" placeholder="Senha">
+                </div>
+                <button type="submit" class="btn-login">Login</button>
+                <label class="ajuste" for="usuario">Ainda não faz parte da aventura?</label>
+                <button class="btn-registro">Registrar-se</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
