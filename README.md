@@ -5,9 +5,9 @@ Projeto criado para treinar Cypress 😺
 # 🟡Os comandos do Cypress que utilizei para executar os testes 
 
 
-* cy.visit() - Vista a URL d site que vamos aplicar o teste automático
+* cy.visit() - Vista a URL do site que vamos aplicar os testes automáticos
 * cy.title() + .should - Verifica o título da página
-* cy.get()- Pega um ou mais elementos DOM por seletor ou alias
+* cy.get()- Pega um ou mais elementos DOM por seletor ou alias para manipular os campos
 
 # 🟡 Os casos de testes que executei foram ✨:
 
@@ -22,7 +22,7 @@ Projeto criado para treinar Cypress 😺
 # 🟡 Link da documentação do Cypress
 https://docs.cypress.io/
 
-# 🟡O Layout do Projeto foi baseado no vídeo: <br> 
+# 🟡O layout do projeto foi baseado no vídeo: <br> 
 https://www.youtube.com/watch?v=69-WfrVBli8&list=PLaqXtUTWYjG6rdL-Cpsdccj711DDAyrlI&index=54
 
 
