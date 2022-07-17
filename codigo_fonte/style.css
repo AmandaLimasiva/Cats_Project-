@@ -247,3 +247,9 @@ span{
     background: #b1554e;
     display: none;
 }
+
+#senha_invalida{
+    color: #e0e0e0f8;
+    background: #b1554e;
+    display: none;
+}

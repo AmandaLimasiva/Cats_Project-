@@ -10,6 +10,8 @@ document.querySelector('button[type="submit"]').addEventListener('click', functi
             return error_email()
         } if(senha.value == '' ){
             return error_senha()
+        }if(senha.value != '123456'){
+            return senha_invalida()
         }
         else{
             return sucesso()
@@ -47,6 +49,14 @@ function error_senha(){
     errorSenha.style.display = "block"
     scroll(0,0)
     hideMessageAfterTimeout(errorSenha)
+    return
+}
+
+function senha_invalida(){
+    const senha_Invalida = document.getElementById('senha_invalida')
+    senha_Invalida.style.display = "block"
+    scroll(0,0)
+    hideMessageAfterTimeout(senha_Invalida)
     return
 }
 
