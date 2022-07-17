@@ -19,6 +19,8 @@ Projeto criado para treinar Cypress 😺
 
 # 🟡 Os casos de testes que executei foram ✨:
 
+> A ideia do projeto era executar casos de teste numa página de Login
+
 1. Verificar o Título da página
 2. Validar preencher os campos de Usuário e Senha com dados válidos
 3. Validar não preencher os campos Usuário e Senha
