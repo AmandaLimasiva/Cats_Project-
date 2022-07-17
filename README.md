@@ -3,11 +3,11 @@ Projeto criado para treinar Cypress 😺
 
 # 🟡 Pré-requisitos
 
-> git
-> Node.js
-> npm (Instalação ocorre junto com o Node)
-> Google Chorme
-> VS Code
+> git <br>
+> Node.js <br>
+> npm (Instalação ocorre junto com o Node)<br>
+> Google Chorme <br>
+> VS Code <br>
 
 
 # 🟡Os comandos do Cypress que utilizei para executar os testes 
