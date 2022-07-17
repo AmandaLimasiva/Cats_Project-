@@ -6,7 +6,7 @@ describe('Página de Login', function() {
     })
 
     it('Verifica o Título da página', function(){
-        cy.title().should('be.equal', 'Página de Login') 
+        cy.title().should('be.equal', 'Faça Login') 
     })
 
     it('Valida Preenchar os campos de Usuário e Senha com dados válidos', function(){
