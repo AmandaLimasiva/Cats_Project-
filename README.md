@@ -1,6 +1,14 @@
 # Cats_Project
 Projeto criado para treinar Cypress 😺
 
+# 🟡 Pré-requisitos
+
+> git
+> Node.js
+> npm (Instalação ocorre junto com o Node)
+> Google Chorme
+> VS Code
+
 
 # 🟡Os comandos do Cypress que utilizei para executar os testes 
 
