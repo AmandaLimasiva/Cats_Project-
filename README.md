@@ -9,5 +9,19 @@ Projeto criado para treinar Cypress 😺
 * cy.title() + .should - Verifica o título da página
 * cy.get()- Pega um ou mais elementos DOM por seletor ou alias
 
+# Os casos de Teste que executei foram ✨:
+
+1. Verificar o Título da página
+2. Validar preencher os campos de Usuário e Senha com dados válidos
+3. Validar não preencher os campos Usuário e Senha
+4. Validar preencher o campo E-mail com um endereço de e-mail inválido
+5. Validar preencher o campo Senha com senha inválida 
+6. Validar não preencher o campo E-mail
+7. Validar não preencher o campo Senha
+
 # Link da documentação do Cypress
 https://docs.cypress.io/
+
+🟡O Layout do Projeto foi baseado no vídeo: https://www.youtube.com/watch?v=69-WfrVBli8&list=PLaqXtUTWYjG6rdL-Cpsdccj711DDAyrlI&index=54
+
+
