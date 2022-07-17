@@ -31,10 +31,17 @@ describe('Página de Login', function() {
 
     })
 
-    it('Valida preencher o campo E-mail inválido', function(){
+    it.only('Valida preencher o campo E-mail inválido', function(){
         cy.get('#usuario').type('amands.gmail.com')
         cy.get('.btn-login').click()
         cy.get('#error_email').should('be.visible')
+    })
+
+    it('Valida preecher o campo Senha com senha inválida', function(){
+        cy.get('#usuario').type('amands@gmail.com')
+        cy.get('#password').type('12345')
+        cy.get('.btn-login').click()
+        cy.get('#senha_invalida').should('be.visible')
     })
 
     it('Valida não preencher o campo E-mail', function(){
